@@ -6,6 +6,7 @@
 <body>
 <h1>Books</h1>
 <a th:href="@{/books/new}">Add New Book</a>
+<a th:href="@{/authors}">View All Authors</a> <!-- Button to navigate to authors page -->
 <a th:href="@{/books/export}">Export Books to CSV</a>
 <form th:action="@{/books/search}" method="get">
   <input type="text" name="title" placeholder="Title"/>
